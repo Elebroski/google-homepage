@@ -1,13 +1,90 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
-.navigation {
-  border: 1px solid black;
-}
 
 .content {
     position: absolute;
-    width: 1440px;
+    width: 1400px;
     height: 351px;
     margin-top: 150px;
-    border: 1px solid black;
+}
+
+.logo {
+      margin-left: 550px;
+}
+
+.search {
+  margin-left: 440px;
+  margin-top: 10px;
+}
+
+.buttons {
+  width: 488px;
+  height: 76px;
+  margin-left: 440px;
+}
+
+ [type=submit] {
+  background-color: #F2F2F2;
+  color: #757575;
+  border: none;
+  height: 36px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 40px;
+  padding: 3px 10px;
+}
+
+input:hover {
+  color: black;
+  border: .5px solid #757575;
+}
+
+#search {
+  margin-left: 140px;
+}
+
+#luck {
+  margin-left: 10px;
+}
+
+
+.navigation {
+  height: 35px;
+  margin-top: 15px;
+}
+
+.navigation-buttons {
+  float: right;
+  height: 35px;
+  margin-right: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding-left: 15px;
+}
+
+.footer {
+  position: absolute;
+  margin-top: 630px;
+  height: 35px;
+  width: 100%;
+  background-color: #f5efef;
+}
+
+.footer-buttons-l {
+  float: left;
+}
+.footer-buttons-r {
+  float: right;
+  margin-right: 15px;
 }
